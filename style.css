@@ -1,8 +1,4 @@
-body{
-    background-image: linear-gradient(45deg, rgb(58, 58, 58), rgb(117, 0, 0));
-    height: 100vh;
-    overflow: hidden;
-}
+
 
 .box_flex{
     display: flex;
