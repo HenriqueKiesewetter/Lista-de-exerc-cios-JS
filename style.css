@@ -1,0 +1,27 @@
+body{
+    background-image: linear-gradient(45deg, rgb(58, 58, 58), rgb(117, 0, 0));
+    height: 100vh;
+    overflow: hidden;
+}
+
+.box_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btn{
+    width: 150px;
+    height: 60px;
+    background-color: rgb(1, 17, 53);
+    border-radius: 50px;
+    color: white;
+    border: 1px black solid;
+    margin: 12px;
+}
+
+
+.btn:hover{
+    background-color: rgb(26, 42, 116);
+}

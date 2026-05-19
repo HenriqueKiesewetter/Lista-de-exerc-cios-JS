@@ -1,0 +1,17 @@
+function folhaPagamento(){
+
+    let salarioL=0;
+    let desconto=0;
+
+    let nome=prompt("Informe seu nome: ");
+    let salarioB=parseFloat(prompt("Informe seu salário bruto: "));
+
+    desconto=salarioB*0.08;
+    salarioL=salarioB-desconto;
+
+    alert("Nome do funcionário: "+nome+"\n"+
+        "Salário Bruto: "+salarioB+"\n"+
+        "Valor do desconto do INSS: "+desconto.toFixed(2) +"\n"+
+        "Salário líquido: "+salarioL.toFixed(2) );
+
+}

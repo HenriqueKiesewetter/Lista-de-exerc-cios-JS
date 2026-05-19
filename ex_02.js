@@ -1,9 +1,14 @@
-function nasa
+function lancarFoguete(){
 
-    for(let i = 10; i > 0; i--){
-        console.log(i);
+    let numero=10;
+
+    while(numero>=0){
+
+        alert(numero);
+        numero--;
+
     }
 
-    console.log ("foguete lançado");
+    alert ("Lançamento realizado!");
 
-    
+}
